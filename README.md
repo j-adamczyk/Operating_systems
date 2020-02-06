@@ -1,6 +1,7 @@
 # Operating Systems
 
-Projects created for Operating Systems course at AGH University of Science and Technology.
+Projects created for Operating Systems course at AGH University of Science and Technology.  
+All task descriptions are in Polish.
 
 ## Table of Contents
 
