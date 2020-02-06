@@ -1,0 +1,6 @@
+Niestety nie udało się zaobserwować (poza pojedynczym wyjątkiem dla każdej sytuacji) czasów użytkownika i systemowego. Wynika to prawdopodobnie z:
+1) Zbyt szybka maszyna - są to proste operacje, więc są błyskawicznie wykonywane.
+2) Zbyt mała precyzja zegara - dostępne zegary mogą nie mieć wystarczającej precyzji (rozdzielczości) do tak precyzyjnych pomiarów (tak krótkiego czasu).
+3) Optymalizacja Linuxa - system zapamiętuje ostatnio wykorzystywane i-węzły (bloki metadanych) dla optymalizacji, co jeszcze bardziej przyspiesza jego operacje (tutaj find).
+
+Dla statycznej biblioteki dało się zauważyć znaczące zwiększenie szybkości dla poziomów optymalizacji 2, 3 i s, co jest zgodne z teorią (używają one dodatkowych flag do optymalizacji). Dla pozostałych rodzajów bibliotek nie udało się jednak zaobserwować tych pożądanych zachowań - wszystkie czasy były podobne. Prawdopodobnie także wynika to z przyczyn opisanych powyżej.

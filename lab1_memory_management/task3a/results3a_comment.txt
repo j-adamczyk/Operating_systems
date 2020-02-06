@@ -1,0 +1,6 @@
+Niestety nie udało się zaobserwować (poza pojedynczym wyjątkiem dla każdej sytuacji) czasów użytkownika i systemowego. Wynika to prawdopodobnie z:
+1) Zbyt szybka maszyna - są to proste operacje, więc są błyskawicznie wykonywane.
+2) Zbyt mała precyzja zegara - dostępne zegary mogą nie mieć wystarczającej precyzji (rozdzielczości) do tak precyzyjnych pomiarów (tak krótkiego czasu).
+3) Optymalizacja Linuxa - system zapamiętuje ostatnio wykorzystywane i-węzły (bloki metadanych) dla optymalizacji, co jeszcze bardziej przyspiesza jego operacje (tutaj find).
+
+Powyższe powody powodują także, że nie zaobserwowano dużych rozbieżności w czasach wykonania pomiędzy użytymi rodzajami bibliotek (także przy powtórzeniu pomiarów) ani regularności w różnicach, co prawdopodobnie także wynika z powyższych powodów.

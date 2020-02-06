@@ -1,0 +1,1530 @@
+
+static O0
+
+create_table 16 
+Real time: 6488 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1567837 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10754 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1844661 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11374 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1789176 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11487 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1810632 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10827 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1772045 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10670 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 1786853 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11322 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 1808034 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 14089 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 3043517 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 48564 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 3761 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 2914 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 1136 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 854 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 847 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 908 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 892 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 6542 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1181 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 5765 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1030 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 5035 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1029 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4726 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1029 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 1180 ns, user time: 0 ns, system time: 0 ns
+ 
+
+static O1
+
+create_table 16 
+Real time: 6909 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1462167 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10588 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1573760 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10840 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1616249 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11165 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1554915 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10630 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1543719 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 13701 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 1595640 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11694 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 2011556 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 85303 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 3375382 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 23630 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 3001 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1711 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 1082 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 900 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 1015 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 996 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 962 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4656 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1026 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3842 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 940 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3530 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1075 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3536 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 970 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 1149 ns, user time: 0 ns, system time: 0 ns
+ 
+
+static O2
+
+create_table 16 
+Real time: 6337 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1564874 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 9898 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1569424 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11213 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 2871420 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 38519 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 2344502 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12674 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 2072886 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 16444 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 1632915 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10576 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 1599272 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10682 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 1557070 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 9953 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 1742 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1059 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 651 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 706 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 638 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 908 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 717 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3768 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 927 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3664 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 954 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4432 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1083 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3923 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 939 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 1120 ns, user time: 0 ns, system time: 0 ns
+ 
+
+static O3
+
+create_table 16 
+Real time: 6897 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1441483 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 9216 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1497819 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10553 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1463733 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 9907 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1504210 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 14057 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1835401 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 50779 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 1588861 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 8564 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 2511857 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 59131 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 2422582 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10369 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 1629 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 995 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 678 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 875 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 756 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 665 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 655 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3695 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 690 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 2833 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 947 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4048 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 959 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4088 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 963 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 1224 ns, user time: 0 ns, system time: 0 ns
+ 
+
+static Os
+
+create_table 16 
+Real time: 6584 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1482346 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10025 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1512663 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10540 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1948818 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 22534 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 3055270 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11016 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1588170 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11768 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 2144703 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 20870 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 1697556 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10061 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 1599824 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11481 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 1730 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1385 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 855 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 899 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 900 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 791 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 862 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4250 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 785 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 2931 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 845 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3414 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1010 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3789 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 989 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 1170 ns, user time: 0 ns, system time: 0 ns
+ 
+
+shared O0
+
+create_table 16 
+Real time: 7910 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 2488922 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 71388 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 2370435 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12268 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1559896 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11189 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1509608 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10312 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1538193 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10289 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 1557422 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11496 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 1528920 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12596 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 1630966 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10514 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 1563 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1122 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 680 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 946 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 938 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 918 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 885 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4245 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 963 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3907 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1011 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3665 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1055 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3408 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1029 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 4698 ns, user time: 0 ns, system time: 0 ns
+ 
+
+shared O1
+
+create_table 16 
+Real time: 66096 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 2996289 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 13751 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1598410 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10267 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1498711 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 9297 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1441629 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11257 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1450055 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12308 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 1443238 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10046 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 1532401 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11267 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 1583778 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 9530 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 1504 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1023 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 919 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 838 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 795 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 800 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 714 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 5306 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1227 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4447 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1007 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4444 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 936 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4626 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 869 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 5562 ns, user time: 0 ns, system time: 0 ns
+ 
+
+shared O2
+
+create_table 16 
+Real time: 7159 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1482447 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12112 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1667829 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 13263 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1948534 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 21900 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1608826 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10800 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1532994 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11157 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 1472406 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10661 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 2569291 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 26269 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 2263348 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10122 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 1813 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1365 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 908 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 966 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 944 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 809 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 761 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4473 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 834 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3023 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 677 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3178 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 677 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3908 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1064 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 4790 ns, user time: 0 ns, system time: 0 ns
+ 
+
+shared O3
+
+create_table 16 
+Real time: 9081 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1869335 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 16894 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1733673 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12615 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1692296 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11788 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1746737 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12426 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1727492 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 19150 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 2243839 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11566 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 1666638 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10217 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 1728640 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 14003 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 1938 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1788 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 892 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 907 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 942 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 1040 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 819 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4490 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1056 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3811 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1000 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3602 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1047 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3680 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 992 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 5040 ns, user time: 0 ns, system time: 0 ns
+ 
+
+shared Os
+
+create_table 16 
+Real time: 7626 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1794590 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 13151 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1693087 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10027 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1569371 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10444 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1531398 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10950 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1528627 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11958 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 1592021 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11720 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 1555343 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10876 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 1560410 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10257 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 1500 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1508 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 1040 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 961 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 830 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 919 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 885 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4177 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1161 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4010 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1084 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3505 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1049 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3811 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1044 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 4212 ns, user time: 0 ns, system time: 0 ns
+ 
+
+dynamic O0
+
+create_table 16 
+Real time: 6822 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1612975 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 19116 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1593069 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12216 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1532478 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12756 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1512556 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12651 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1540874 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11212 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 3584681 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 59321 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 2171919 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 14246 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 1811145 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11759 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 2004 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1822 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 866 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 767 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 853 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 863 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 876 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 5730 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1040 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4748 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1048 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4453 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1058 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4145 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 924 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 6150 ns, user time: 0 ns, system time: 0 ns
+ 
+
+dynamic O1
+
+create_table 16 
+Real time: 8197 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1447289 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 16208 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1748994 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 25042 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 3046055 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11263 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1636533 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10952 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1756821 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12437 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 2361712 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12239 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 1558348 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11450 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 1542050 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10837 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 1894 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1319 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 705 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 651 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 696 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 634 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 644 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3559 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1093 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3572 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1012 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4309 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1003 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3770 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1091 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 4873 ns, user time: 0 ns, system time: 0 ns
+ 
+
+dynamic O2
+
+create_table 16 
+Real time: 8861 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 2238989 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 14276 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1496987 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10558 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1559456 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10499 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1561836 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10458 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1557856 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10664 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 1592290 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10913 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 1792660 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 14194 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 1732252 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 13559 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 2650 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1820 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 963 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 914 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 860 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 925 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 880 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 6050 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 977 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4728 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 991 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4820 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 991 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4935 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1041 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 6195 ns, user time: 0 ns, system time: 0 ns
+ 
+
+dynamic O3
+
+create_table 16 
+Real time: 6960 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1528550 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 14569 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1562484 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10836 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1722502 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 18542 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 3101233 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11570 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1631197 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10792 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 1542621 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 9994 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 1503178 ns, user time: 10000000 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10030 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 1456738 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 9783 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 1922 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1235 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 640 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 634 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 628 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 633 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 830 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3804 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 781 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3957 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1028 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3755 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 924 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3732 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1058 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 4712 ns, user time: 0 ns, system time: 0 ns
+ 
+
+dynamic Os
+
+create_table 16 
+Real time: 6611 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file1 tmp 
+Real time: 1406074 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12817 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/small_directories file2 tmp 
+Real time: 1487516 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11291 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file1 tmp 
+Real time: 1850155 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 12660 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/medium_directories file2 tmp 
+Real time: 1771309 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 10371 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file1 tmp 
+Real time: 1674382 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 11089 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file2 tmp 
+Real time: 1532541 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 9876 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file3 tmp 
+Real time: 1605298 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 17454 ns, user time: 0 ns, system time: 0 ns
+ 
+search_directory test_directories/large_directories file4 tmp 
+Real time: 3114745 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 17256 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 0 
+Real time: 2397 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 1 
+Real time: 1805 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 2 
+Real time: 809 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 3 
+Real time: 959 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 4 
+Real time: 692 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 5 
+Real time: 637 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 622 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4331 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 986 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3329 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1005 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 3648 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 869 ns, user time: 0 ns, system time: 0 ns
+ 
+load_file tmp 
+Real time: 4563 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_block 6 
+Real time: 1062 ns, user time: 0 ns, system time: 0 ns
+ 
+remove_table 
+Real time: 4994 ns, user time: 0 ns, system time: 0 ns
+ 

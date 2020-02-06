@@ -1,0 +1,8 @@
+1 thread(s), block mode, 140095136213647 us (real time)
+2 thread(s), block mode, 139710808078149 us (real time)
+4 thread(s), block mode, 140002091179742 us (real time)
+8 thread(s), block mode, 139977626748008 us (real time)
+1 thread(s), interleaved mode, 140702018355305 us (real time)
+2 thread(s), interleaved mode, 140555081178939 us (real time)
+4 thread(s), interleaved mode, 139716142841786 us (real time)
+8 thread(s), interleaved mode, 139670362968498 us (real time)

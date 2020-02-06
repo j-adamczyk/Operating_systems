@@ -1,0 +1,4 @@
+ls -l -a | sort | tee ls_file
+echo "some words" | cat
+cat main.c | grep for | sort
+cat main.c | grep int | sort | wc -l

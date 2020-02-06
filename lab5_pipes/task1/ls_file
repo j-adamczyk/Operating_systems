@@ -1,0 +1,8 @@
+drwxr-xr-x 2 morgul morgul  4096 Apr 12 13:51 .
+drwxr-xr-x 4 morgul morgul  4096 Apr 12 10:49 ..
+-rw-r--r-- 1 morgul morgul     0 Apr 12 13:51 ls_file
+-rw-r--r-- 1 morgul morgul   120 Apr 12 13:51 commands_file
+-rw-r--r-- 1 morgul morgul  4644 Apr  9 17:23 main.c
+-rw-rw-r-- 1 morgul morgul   135 Apr  9 17:27 makefile
+-rwxr-xr-x 1 morgul morgul 13264 Apr 12 13:51 main
+total 40

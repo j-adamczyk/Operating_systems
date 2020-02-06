@@ -1,0 +1,318 @@
+generate 6000 records to file1 
+Real time: 10070610 ns, user time: 0 ns, system time: 10000000 ns
+ 
+generate 3000 records to file2 
+Real time: 4830649 ns, user time: 0 ns, system time: 0 ns
+ 
+
+
+lib 
+ 
+copy 6000 records from file1 to file1_lib 
+Real time: 308564 ns, user time: 0 ns, system time: 0 ns
+ 
+copy 3000 records from file2 to file2_lib 
+Real time: 174842 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 6000 records in file file1_lib 
+Real time: 441806699 ns, user time: 400000000 ns, system time: 30000000 ns
+ 
+sort 3000 records in file file1_lib 
+Real time: 309179786 ns, user time: 290000000 ns, system time: 10000000 ns
+ 
+sys 
+ 
+copy 6000 records from file1 to file1_sys 
+Real time: 12699214 ns, user time: 0 ns, system time: 10000000 ns
+ 
+copy 3000 records from file2 to file2_sys 
+Real time: 5675215 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 6000 records in file file1_sys 
+Real time: 9743730135 ns, user time: 2150000000 ns, system time: 7570000000 ns
+ 
+sort 3000 records in file file1_sys 
+Real time: 6792489723 ns, user time: 1580000000 ns, system time: 5200000000 ns
+ 
+
+
+generate 5000 records to file1 
+Real time: 10367466 ns, user time: 0 ns, system time: 10000000 ns
+ 
+generate 3000 records to file2 
+Real time: 6751236 ns, user time: 0 ns, system time: 0 ns
+ 
+
+
+lib 
+ 
+copy 5000 records from file1 to file1_lib 
+Real time: 284688 ns, user time: 0 ns, system time: 0 ns
+ 
+copy 3000 records from file2 to file2_lib 
+Real time: 178476 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 5000 records in file file1_lib 
+Real time: 348485122 ns, user time: 280000000 ns, system time: 60000000 ns
+ 
+sort 3000 records in file file1_lib 
+Real time: 289517265 ns, user time: 230000000 ns, system time: 50000000 ns
+ 
+sys 
+ 
+copy 5000 records from file1 to file1_sys 
+Real time: 10047638 ns, user time: 0 ns, system time: 10000000 ns
+ 
+copy 3000 records from file2 to file2_sys 
+Real time: 5795127 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 5000 records in file file1_sys 
+Real time: 6135843336 ns, user time: 1470000000 ns, system time: 4650000000 ns
+ 
+sort 3000 records in file file1_sys 
+Real time: 5005067970 ns, user time: 1040000000 ns, system time: 3960000000 ns
+ 
+
+
+generate 5000 records to file1 
+Real time: 55008115 ns, user time: 30000000 ns, system time: 10000000 ns
+ 
+generate 2000 records to file2 
+Real time: 21179686 ns, user time: 10000000 ns, system time: 0 ns
+ 
+
+
+lib 
+ 
+copy 5000 records from file1 to file1_lib 
+Real time: 2590446 ns, user time: 0 ns, system time: 0 ns
+ 
+copy 2000 records from file2 to file2_lib 
+Real time: 1039444 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 5000 records in file file1_lib 
+Real time: 1550822175 ns, user time: 560000000 ns, system time: 980000000 ns
+ 
+sort 2000 records in file file1_lib 
+Real time: 1090195628 ns, user time: 400000000 ns, system time: 680000000 ns
+ 
+sys 
+ 
+copy 5000 records from file1 to file1_sys 
+Real time: 11059991 ns, user time: 0 ns, system time: 0 ns
+ 
+copy 2000 records from file2 to file2_sys 
+Real time: 4601741 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 5000 records in file file1_sys 
+Real time: 6674417825 ns, user time: 1450000000 ns, system time: 5210000000 ns
+ 
+sort 2000 records in file file1_sys 
+Real time: 4335402280 ns, user time: 900000000 ns, system time: 3420000000 ns
+ 
+
+
+generate 4000 records to file1 
+Real time: 96760660 ns, user time: 80000000 ns, system time: 0 ns
+ 
+generate 2000 records to file2 
+Real time: 48967775 ns, user time: 40000000 ns, system time: 0 ns
+ 
+
+
+lib 
+ 
+copy 4000 records from file1 to file1_lib 
+Real time: 5645393 ns, user time: 0 ns, system time: 0 ns
+ 
+copy 2000 records from file2 to file2_lib 
+Real time: 2109911 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 4000 records in file file1_lib 
+Real time: 2678666569 ns, user time: 650000000 ns, system time: 2010000000 ns
+ 
+sort 2000 records in file file1_lib 
+Real time: 1586343532 ns, user time: 430000000 ns, system time: 1140000000 ns
+ 
+sys 
+ 
+copy 4000 records from file1 to file1_sys 
+Real time: 10142341 ns, user time: 0 ns, system time: 10000000 ns
+ 
+copy 2000 records from file2 to file2_sys 
+Real time: 5266316 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 4000 records in file file1_sys 
+Real time: 5043716242 ns, user time: 800000000 ns, system time: 4230000000 ns
+ 
+sort 2000 records in file file1_sys 
+Real time: 3680593545 ns, user time: 710000000 ns, system time: 2960000000 ns
+ 
+
+
+generate 3000 records to file1 
+Real time: 226528049 ns, user time: 210000000 ns, system time: 0 ns
+ 
+generate 2000 records to file2 
+Real time: 148688588 ns, user time: 140000000 ns, system time: 0 ns
+ 
+
+
+lib 
+ 
+copy 3000 records from file1 to file1_lib 
+Real time: 11372897 ns, user time: 0 ns, system time: 0 ns
+ 
+copy 2000 records from file2 to file2_lib 
+Real time: 9742917 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 3000 records in file file1_lib 
+Real time: 4921354319 ns, user time: 910000000 ns, system time: 4000000000 ns
+ 
+sort 2000 records in file file1_lib 
+Real time: 4792560600 ns, user time: 860000000 ns, system time: 3920000000 ns
+ 
+sys 
+ 
+copy 3000 records from file1 to file1_sys 
+Real time: 18491658 ns, user time: 0 ns, system time: 10000000 ns
+ 
+copy 2000 records from file2 to file2_sys 
+Real time: 10004904 ns, user time: 0 ns, system time: 10000000 ns
+ 
+sort 3000 records in file file1_sys 
+Real time: 4790474451 ns, user time: 460000000 ns, system time: 4320000000 ns
+ 
+sort 2000 records in file file1_sys 
+Real time: 4226816385 ns, user time: 460000000 ns, system time: 3760000000 ns
+ 
+
+
+generate 3000 records to file1 
+Real time: 493665485 ns, user time: 450000000 ns, system time: 30000000 ns
+ 
+generate 2000 records to file2 
+Real time: 311048044 ns, user time: 290000000 ns, system time: 10000000 ns
+ 
+
+
+lib 
+ 
+copy 3000 records from file1 to file1_lib 
+Real time: 26383302 ns, user time: 0 ns, system time: 20000000 ns
+ 
+copy 2000 records from file2 to file2_lib 
+Real time: 19520240 ns, user time: 0 ns, system time: 10000000 ns
+ 
+sort 3000 records in file file1_lib 
+Real time: 10692339775 ns, user time: 1530000000 ns, system time: 9140000000 ns
+ 
+sort 2000 records in file file1_lib 
+Real time: 9551433078 ns, user time: 1310000000 ns, system time: 8210000000 ns
+ 
+sys 
+ 
+copy 3000 records from file1 to file1_sys 
+Real time: 20728700 ns, user time: 0 ns, system time: 20000000 ns
+ 
+copy 2000 records from file2 to file2_sys 
+Real time: 13914515 ns, user time: 0 ns, system time: 10000000 ns
+ 
+sort 3000 records in file file1_sys 
+Real time: 7292870292 ns, user time: 500000000 ns, system time: 6780000000 ns
+ 
+sort 2000 records in file file1_sys 
+Real time: 6723255718 ns, user time: 410000000 ns, system time: 6310000000 ns
+ 
+
+
+generate 100 records to file1 
+Real time: 1322114 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 10 records to file2 
+Real time: 313730 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 10 records to file1 
+Real time: 140289 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 100 records to file 
+Real time: 1441837 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 10 records to file 
+Real time: 139663 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 100 records in file file 
+Real time: 44008045 ns, user time: 10000000 ns, system time: 30000000 ns
+ 
+generate 100 records to file 
+Real time: 1381148 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 10 records to file 
+Real time: 169132 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 100 records in file file 
+Real time: 3946503 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 10 records to file 
+Real time: 213704 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 10 records to file 
+Real time: 164372 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 10 records in file file 
+Real time: 463163 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 100 records to file 
+Real time: 1473059 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 10 records to file 
+Real time: 199745 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 10 records in file file 
+Real time: 844835 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 100 records to file 
+Real time: 880022 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 10 records in file file 
+Real time: 1182705 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 100 records to file 
+Real time: 1227803 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 10 records in file file 
+Real time: 720262 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 100 records to file 
+Real time: 1096479 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 100 records in file file 
+Real time: 2854310 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 100 records to file 
+Real time: 761920 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 10 records to file 
+Real time: 105798 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 100 records in file file 
+Real time: 2455546 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 100 records to file 
+Real time: 1045318 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 10 records to file 
+Real time: 138139 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 100 records in file file 
+Real time: 2870902 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 100 records to file 
+Real time: 1136089 ns, user time: 0 ns, system time: 0 ns
+ 
+generate 10 records to file 
+Real time: 118585 ns, user time: 0 ns, system time: 0 ns
+ 
+sort 100 records in file file 
+Real time: 5108291 ns, user time: 0 ns, system time: 0 ns
+ 
